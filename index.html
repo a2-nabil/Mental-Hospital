@@ -4,6 +4,126 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mental Health</title>
+
+    <!-- fonts here  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Urbanist:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Css links here  -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Header section Start  -->
+    <header class="header_part">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <!-- logo  -->
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/logo.png" alt="logo" />
+          </a>
+
+          <!-- Mobile menu button  -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- main menu  -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Free Quiz</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"
+                  >Cart <i class="fa-solid fa-bag-shopping"></i></a>
+              </li>
+              <li class="nav-item">
+                <button class="btn primary_btn me-2" type="button">
+                  LOGIN
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header section End  -->
+    <!-- Hero section start  -->
+    <section class="hero_bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+              <div class="hero_content-left text-start">
+                <h2>Invest In Your Mental Health Training</h2>
+                <h1>For a Better Mental Health and a Better Life</h1>
+                <form class="d-flex" role="search">
+                  <div class="form-floating">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                      <option selected>Categories</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                  <input
+                    class="form-control"
+                    type="search"
+                    placeholder="Find the courses you need....."
+                    aria-label="Search"
+                  />
+                  <button class="btn hero-btn ms-auto" type="submit">
+                    Search <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+              <div class="hero_content-right">
+                <img class="img-fluid" src="./assets/images/Hero-preview.png" alt="hero" />
+                <img class="hero_img-side" src="./assets/images/hero-sidepng.png" alt="">
+                <div class="hero_player">
+                  <div class="player_img"><img src="./assets/images/Hero-player_img.png" alt=""></div>
+                  <p class="hero_player-desc">
+                    Biggest Online <br>
+                    Platform
+                  </p>
+                    <a href="#"><i class="fa-solid fa-circle-play"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero section end  -->
+
+    <!-- Js links here  -->
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/d46ca011e7.js" crossorigin="anonymous"></script>
+  </body>
 </html>

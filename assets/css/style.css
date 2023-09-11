@@ -1,0 +1,203 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --first: #43b97e;
+  --second: #43b97e40;
+  --btn-text: #333;
+  --text-p: #595959;
+  --header-text: #515151;
+  --text-header: #7a7a7a;
+  --header-bg: #fbfbfb;
+  --primary-font: "Plus Jakarta Sans", sans-serif;
+  --secondary-font: "Urbanist", sans-serif;
+}
+
+p {
+  color: var(--text-p);
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+li {
+  list-style: none;
+}
+.primary_btn {
+  background-color: var(--second);
+  color: var(--btn-text);
+  padding: 15px 50px;
+  border-radius: 3px;
+  text-align: center;
+  font-family: var(--primary-font);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+}
+.primary_btn:hover {
+  background: var(--first);
+  color: white;
+}
+.hero-btn {
+  width: 132px;
+  height: 50px;
+  border-radius: 120px;
+  background: var(--first);
+  color: #fff;
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  font-weight: 600;
+}
+.hero-btn:hover {
+  background: var(--second);
+  color: var(--btn-text);
+}
+.hero-btn i {
+  padding-left: 5px;
+  font-size: 12px;
+}
+/* Header Section Start  */
+.header_part {
+  width: 100%;
+  background: var(--header-bg);
+  box-shadow: 0px 4px 4px 0px rgba(221, 221, 221, 0.25);
+  padding: 20px 0px;
+}
+.header_part .navbar-nav li {
+  color: var(--btn-text);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.header_part .navbar-nav li a:hover,
+.active {
+  border-bottom: 2px solid var(--first);
+  color: var(--first) !important;
+}
+/* Header Section end  */
+/* Hero Section start  */
+.hero_bg {
+  background: url(../images/Rectangle\ 4356.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+
+  padding-top: 60px;
+  padding-bottom: 180px;
+}
+.hero_bg .hero_content-left {
+  padding-top: 120px;
+}
+.hero_bg .hero_content-left h2 {
+  color: var(--text-header);
+  font-family: var(--primary-font);
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.hero_bg .hero_content-left h1 {
+  color: var(--header-text);
+  font-family: var(--primary-font);
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 70px;
+  margin-bottom: 40px;
+}
+.hero_bg .hero_content-left form {
+  width: 540px;
+  height: 80px;
+  border-radius: 120px;
+  border: 1px solid var(--first);
+  background: #fff;
+  box-shadow: 0px 4px 17px 0px rgba(204, 204, 204, 0.25);
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.hero_bg .hero_content-left .form-floating .form-select {
+  color: var(--text-p);
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  cursor: pointer;
+}
+.form-floating > .form-select {
+  padding-top: 0.625rem;
+}
+.hero_bg .hero_content-left .form-control {
+  color: rgba(59, 56, 53, 0.6);
+  font-family: var(--secondary-font);
+  font-size: 14px;
+  font-weight: 400;
+  width: 225px;
+  height: 17px;
+  border: none !important;
+}
+.hero_bg .hero_content-left form input[type="search"]::placeholder {
+  border: none;
+  padding-left: 22px;
+  border-left: 1px solid #d8d8d8 !important;
+}
+.hero_bg .hero_content-left form input[type="search"]:focus,
+.hero_bg .hero_content-left form select:focus {
+  box-shadow: none;
+}
+.hero_bg .hero_content-right {
+  position: relative;
+}
+.hero_bg .hero_content-right .hero_img-side {
+  width: 181px;
+  height: 148px;
+  position: absolute;
+  top: 105px;
+  right: 32px;
+}
+.hero_bg .hero_content-right .hero_player {
+  position: absolute;
+  bottom: 105px;
+  right: -40px;
+  width: 284px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 8.58px;
+  background: #fff;
+  box-shadow: 0px 12.01208px 29.17221px 0px rgba(123, 123, 123, 0.25);
+}
+.hero_bg .hero_content-right .hero_player i {
+  font-size: 45px;
+  color: var(--first);
+}
+.hero_bg .hero_content-right .hero_player-desc {
+  color: #737373;
+  font-family: var(--primary-font);
+  font-size: 13.728px;
+  font-style: normal;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 20px;
+}
+.hero_bg .hero_content-right .hero_player .player_img {
+  width: 64.35px;
+  height: 60.918px;
+  border-radius: 8.58px;
+  background: #eee;
+  text-align: center;
+}
+
+.hero_bg .hero_content-right .hero_player img {
+  width: 38px;
+  height: 58px;
+}
+/* Hero Section end  */
