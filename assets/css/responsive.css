@@ -9,11 +9,23 @@
   h3 {
     font-size: 14px !important;
   }
+  h4 {
+    font-size: 14px !important;
+  }
   p {
     font-size: 12px !important;
   }
   i {
     font-size: 12px !important;
+  }
+  .heading-text {
+    font-size: 24px !important;
+  }
+  .sub_heading-text {
+    font-weight: 500;
+  }
+  .desc-text {
+    line-height: 18px;
   }
   .primary_btn {
     padding: 10px 20px;
@@ -93,8 +105,93 @@
     height: 35px;
     margin-bottom: -50px;
   }
-
   /* Reviews Section end  */
+
+  /* Courses banner section start  */
+
+  .courses_bg {
+    margin-bottom: 30px;
+  }
+  .card-title {
+    font-size: 14px;
+  }
+  .banner-content_left .banner-text h2 {
+    font-size: 24px !important;
+  }
+  .card-ratings {
+    top: 195px;
+    gap: 145px;
+  }
+  .courses-banner {
+    padding: 0 10px;
+  }
+  .banner-content {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0px 0px;
+    padding-top: 50px;
+  }
+  .circle-1 {
+    display: none;
+  }
+  .circle-2 {
+    display: none;
+  }
+  .banner-content_left .banner-text {
+    margin: 0;
+    text-align: center;
+  }
+  .banner-content_right {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 50px;
+  }
+  .banner-content_right .banner-card {
+    margin: 0 auto;
+  }
+  /* Courses banner section end  */
+
+  /* Features section start */
+  .features-bg {
+    margin: 50px 0;
+  }
+  .features-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  /* Features section end */
+
+  /* Resources section start */
+  .resources-bg {
+    text-align: center;
+    padding: 0px 20px;
+    overflow: hidden;
+  }
+  .resources-bg p {
+    margin: 0 auto;
+    width: 250px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .resources-bg h3 {
+    line-height: 20px;
+  }
+  .resources-img {
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .circle-3 {
+    display: none;
+  }
+  .circle-4 {
+    display: none;
+  }
+
+  /* Resources section end */
 }
 
 /* // Small devices (landscape phones, 576px and up) */
@@ -163,6 +260,80 @@
   }
 
   /* Reviews Section end  */
+  /* Courses banner section start  */
+  .courses_bg {
+    margin-bottom: 30px;
+  }
+  .card-ratings {
+    top: 300px;
+    gap: 310px;
+  }
+  .courses-banner {
+    padding: 0 10px;
+  }
+  .banner-content {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0px 0px;
+    padding-top: 50px;
+  }
+  .circle-1 {
+    margin: 0 auto;
+    /* display: none; */
+  }
+  .circle-2 {
+    top: 39px;
+    left: 143px;
+    /* display: none; */
+  }
+  .banner-content_left .banner-text {
+    position: absolute;
+    top: 130px;
+    left: 37px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .banner-content_right {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 50px;
+  }
+  .banner-content_right .banner-card {
+    margin: 0 auto;
+  }
+
+  /* Courses banner section end  */
+  /* Features section start */
+
+  .features-bg {
+    margin: 50px 0;
+  }
+  .features-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  /* Features section end */
+  /* Resources section start */
+  .resources-bg {
+    text-align: center;
+    padding: 0px 20px;
+    overflow: hidden;
+  }
+  .resources-bg p {
+    margin: 0 auto;
+    width: 500px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .resources-bg h3 {
+    line-height: 20px;
+  }
+
+  /* Resources section end */
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -212,12 +383,81 @@
     height: 35px;
     margin-bottom: -50px;
   }
-
   /* Reviews Section end  */
+  /* Courses banner section start  */
+  .courses_bg {
+    margin-bottom: 30px;
+  }
+  .card-ratings {
+    top: 180px;
+    gap: 120px;
+  }
+  .courses-banner {
+    padding: 0 10px;
+  }
+  .banner-content {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0px 0px;
+    padding-top: 50px;
+  }
+  .circle-1 {
+    margin: 0 auto;
+  }
+  .circle-2 {
+    top: 39px;
+    left: 232px;
+  }
+  .banner-content_left .banner-text {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .banner-content_right {
+    gap: 50px;
+    margin-top: 50px;
+  }
+  .banner-content_right .banner-card {
+    margin: 0 auto;
+  }
+  /* Courses banner section end  */
+  /* Features section start */
+  .features-bg {
+    margin: 50px 0;
+  }
+  .features-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  /* Features section end */
 }
 
-/* // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .card-ratings {
+    top: 110px;
+    gap: 4px;
+  }
+  .resources-bg p {
+    width: 500px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... } */
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .card-ratings {
+    top: 137px;
+    gap: 45px;
+  }
+  .resources-bg p {
+    width: 600px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
