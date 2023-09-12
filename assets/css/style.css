@@ -11,6 +11,8 @@
   --header-text: #515151;
   --text-header: #7a7a7a;
   --header-bg: #fbfbfb;
+  --text-p-2: #f7f7f7;
+  --black-heading: #666;
   --sub-heading: #4d4d4d;
   --primary-font: "Plus Jakarta Sans", sans-serif;
   --secondary-font: "Urbanist", sans-serif;
@@ -23,6 +25,7 @@ p {
   font-weight: 400;
   margin-bottom: 0;
 }
+
 li {
   list-style: none;
 }
@@ -265,7 +268,7 @@ section.reviews_bg {
   line-height: 22px;
 }
 .review_content .review_text p {
-  color: #666;
+  color: var(--black-heading);
   font-family: var(--primary-font);
   font-size: 12px;
   font-weight: 400;
@@ -300,3 +303,76 @@ section.reviews_bg {
   color: #fff;
 }
 /* Reviews section end */
+
+/* Courses section start */
+.courses_bg {
+  margin-top: 100px;
+  background: url(../images/Memphis-S.png);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: 0 40rem;
+}
+.courses_bg .card {
+  border-radius: 10px;
+  border: 1px solid #f2f2f2;
+  background: #fff;
+  position: relative;
+  margin-bottom: 30px;
+}
+.courses_title h2 {
+  color: var(--btn-text);
+  font-family: var(--primary-font);
+  font-size: 36px;
+  font-weight: 700;
+}
+.card-title {
+  color: var(--btn-text);
+  text-align: justify;
+  font-family: var(--primary-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.card-ratings {
+  position: absolute;
+  top: 165px;
+  left: 15px;
+  display: flex;
+  justify-content: space-between;
+  gap: 85px;
+}
+.card-ratings p {
+  color: var(--text-p-2);
+  font-family: var(--primary-font);
+  font-size: 14px;
+  font-weight: 700;
+}
+.card-ratings p > i.rating {
+  color: #ffb800;
+  font-size: 14px;
+}
+
+.card-details h3 {
+  color: var(--first);
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 800;
+}
+.card-details p {
+  color: var(--black-heading);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 600;
+}
+.card-details p > i {
+  color: var(--first);
+  font-size: 14px;
+}
+.card-details p > span,
+.card-ratings p > span {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Courses section end */

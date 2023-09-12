@@ -1,227 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mental Health</title>
 
-    <!-- fonts here  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Urbanist:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Css links here  -->
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/responsive.css">
-  </head>
-  <body>
-    <!-- Header section Start  -->
-    <header class="header_part">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-          <!-- logo  -->
-          <a class="navbar-brand" href="#">
-            <img src="./assets/images/logo.png" alt="logo" />
-          </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mental Health</title>
 
-          <!-- Mobile menu button  -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <!-- fonts here  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Urbanist:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <!-- Css links here  -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
 
-          <!-- main menu  -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link actived" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Courses</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Free Quiz</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"
-                  >Cart <i class="fa-solid fa-bag-shopping"></i></a>
-              </li>
-              <li class="nav-item">
-                <button class="btn primary_btn me-2" type="button">
-                  LOGIN
-                </button>
-              </li>
-            </ul>
+<body>
+  <!-- Header section Start  -->
+  <header class="header_part">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <!-- logo  -->
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logo.png" alt="logo" />
+        </a>
+
+        <!-- Mobile menu button  -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- main menu  -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link actived" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Free Quiz</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cart <i class="fa-solid fa-bag-shopping"></i></a>
+            </li>
+            <li class="nav-item">
+              <button class="btn primary_btn me-2" type="button">
+                LOGIN
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Header section End  -->
+  <!-- Hero section start  -->
+  <section class="hero_bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="hero_content-left text-start">
+            <h2>Invest In Your Mental Health Training</h2>
+            <h1>For a Better Mental Health and a Better Life</h1>
+            <form class="d-flex" role="search">
+              <div class="form-floating">
+                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                  <option selected>Categories</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <input class="form-control" type="search" placeholder="Find the courses you need....."
+                aria-label="Search" />
+              <button class="btn hero-btn ms-auto" type="submit">
+                Search <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
           </div>
         </div>
-      </nav>
-    </header>
-    <!-- Header section End  -->
-    <!-- Hero section start  -->
-    <section class="hero_bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-12 col-sm-12">
-              <div class="hero_content-left text-start">
-                <h2>Invest In Your Mental Health Training</h2>
-                <h1>For a Better Mental Health and a Better Life</h1>
-                <form class="d-flex" role="search">
-                  <div class="form-floating">
-                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                      <option selected>Categories</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-                  </div>
-                  <input
-                    class="form-control"
-                    type="search"
-                    placeholder="Find the courses you need....."
-                    aria-label="Search"
-                  />
-                  <button class="btn hero-btn ms-auto" type="submit">
-                    Search <i class="fa-solid fa-magnifying-glass"></i>
-                  </button>
-                </form>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-12">
-              <div class="hero_content-right">
-                <img class="img-fluid" src="./assets/images/Hero-preview.png" alt="hero" />
-                <img class="hero_img-side" src="./assets/images/hero-sidepng.png" alt="">
-                <div class="hero_player">
-                  <div class="player_img"><img src="./assets/images/Hero-player_img.png" alt=""></div>
-                  <p class="hero_player-desc">
-                    Biggest Online <br>
-                    Platform
-                  </p>
-                    <a href="#"><i class="fa-solid fa-circle-play"></i></a>
-                </div>
-              </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <div class="hero_content-right">
+            <img class="img-fluid" src="./assets/images/Hero-preview.png" alt="hero" />
+            <img class="hero_img-side" src="./assets/images/hero-sidepng.png" alt="">
+            <div class="hero_player">
+              <div class="player_img"><img src="./assets/images/Hero-player_img.png" alt=""></div>
+              <p class="hero_player-desc">
+                Biggest Online <br>
+                Platform
+              </p>
+              <a href="#"><i class="fa-solid fa-circle-play"></i></a>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!-- Hero section end  -->
-    <!-- Review section start  -->
-    <section class="reviews_bg">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-12 col-sm-12">
-            <div class="all_reviews ms-auto">
-              <h3>Excellent</h3>
-              <div class="review_stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
+    </div>
+    </div>
+  </section>
+  <!-- Hero section end  -->
+  <!-- Reviews section start  -->
+  <section class="reviews_bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <!-- all reviews  -->
+          <div class="all_reviews ms-auto">
+            <h3>Excellent</h3>
+            <div class="review_stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p>Based on <span class="uniqe">456 reviews</span></p>
+          </div>
+        </div>
+        <!-- reviews carousel  -->
+        <div class="col-lg-8 col-md-12 col-sm-12">
+          <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="review_content mx-auto">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="review_text">
+                      <h3>Worldtraveler</h3>
+                      <p>1 day ago</p>
+                    </div>
+                    <div class="review_stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <h3>
+                    Generally an excellent course. Guides on various areas where to put more accentuation as a
+                    manager...
+                  </h3>
+                </div>
               </div>
-              <p>Based on <span class="uniqe">456 reviews</span></p>
+              <div class="carousel-item active">
+                <div class="review_content mx-auto">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="review_text">
+                      <h3>Worldtraveler</h3>
+                      <p>1 day ago</p>
+                    </div>
+                    <div class="review_stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <h3>
+                    Generally an excellent course. Guides on various areas where to put more accentuation as a
+                    manager...
+                  </h3>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <div class="review_content mx-auto">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="review_text">
+                      <h3>Worldtraveler</h3>
+                      <p>1 day ago</p>
+                    </div>
+                    <div class="review_stars">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                  </div>
+                  <h3>
+                    Generally an excellent course. Guides on various areas where to put more accentuation as a
+                    manager...
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Reviews section end  -->
+  <!-- Courses section start  -->
+  <section class="courses_bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="courses_title d-flex justify-content-between mb-5">
+            <h2>Our Most Popular Courses</h2>
+            <button class="btn primary_btn" type="button">
+              View All Courses
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="./assets/images/unsplash_FlPc9_VocJ4.png" class="card-img-top" alt="...">
+            <div class="card-ratings">
+              <p><i class="fa-solid fa-star rating"></i> 5.00 <span>(5 reviews)</span></p>
+              <p><i class="fa-solid fa-calendar-days"></i> 365 <span>days</span></p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Bookkeeping : Accounting & Book-Keeping</h5>
+              <div class="card-details d-flex justify-content-between">
+                <h3>£299.00</h3>
+                <p><i class="fa-solid fa-user-graduate"></i> 135 <span>Students</span></p>
+              </div>
+              <button class="btn primary_btn w-100 my-2" type="button">
+                View Details <i class="fa-solid fa-arrow-right ms-1"></i>
+              </button>
             </div>
           </div>
-          <div class="col-lg-8 col-md-12 col-sm-12">
-            <div id="carouselExample" class="carousel slide">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <div class="review_content mx-auto">
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="review_text">
-                        <h3>Worldtraveler</h3>
-                        <p>1 day ago</p>
-                      </div>
-                      <div class="review_stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                      </div>
-                    </div>
-                    <h3>
-                      Generally an excellent course. Guides on various areas where to put more accentuation as a manager...
-                    </h3>
-                  </div>
-                </div>
-                <div class="carousel-item active">
-                  <div class="review_content mx-auto">
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="review_text">
-                        <h3>Worldtraveler</h3>
-                        <p>1 day ago</p>
-                      </div>
-                      <div class="review_stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                      </div>
-                    </div>
-                    <h3>
-                      Generally an excellent course. Guides on various areas where to put more accentuation as a manager...
-                    </h3>
-                  </div>
-                </div>
-                <div class="carousel-item active">
-                  <div class="review_content mx-auto">
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="review_text">
-                        <h3>Worldtraveler</h3>
-                        <p>1 day ago</p>
-                      </div>
-                      <div class="review_stars">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                      </div>
-                    </div>
-                    <h3>
-                      Generally an excellent course. Guides on various areas where to put more accentuation as a manager...
-                    </h3>
-                  </div>
-                </div>
-                
-                
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="./assets/images/unsplash_FlPc9_VocJ4-4.png" class="card-img-top" alt="...">
+            <div class="card-ratings">
+              <p><i class="fa-solid fa-star rating"></i> 5.00 <span>(5 reviews)</span></p>
+              <p><i class="fa-solid fa-calendar-days"></i> 365 <span>days</span></p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Bookkeeping : Accounting & Book-Keeping</h5>
+              <div class="card-details d-flex justify-content-between">
+                <h3>£299.00</h3>
+                <p><i class="fa-solid fa-user-graduate"></i> 135 <span>Students</span></p>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <i class="fa-solid fa-arrow-left"></i>
+              <button class="btn primary_btn w-100 my-2" type="button">
+                View Details <i class="fa-solid fa-arrow-right ms-1"></i>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="./assets/images/unsplash_FlPc9_VocJ4-2.png" class="card-img-top" alt="...">
+            <div class="card-ratings">
+              <p><i class="fa-solid fa-star rating"></i> 5.00 <span>(5 reviews)</span></p>
+              <p><i class="fa-solid fa-calendar-days"></i> 365 <span>days</span></p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Bookkeeping : Accounting & Book-Keeping</h5>
+              <div class="card-details d-flex justify-content-between">
+                <h3>£299.00</h3>
+                <p><i class="fa-solid fa-user-graduate"></i> 135 <span>Students</span></p>
+              </div>
+              <button class="btn primary_btn w-100 my-2" type="button">
+                View Details <i class="fa-solid fa-arrow-right ms-1"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="./assets/images/unsplash_FlPc9_VocJ4-6.png" class="card-img-top" alt="...">
+            <div class="card-ratings">
+              <p><i class="fa-solid fa-star rating"></i> 5.00 <span>(5 reviews)</span></p>
+              <p><i class="fa-solid fa-calendar-days"></i> 365 <span>days</span></p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Bookkeeping : Accounting & Book-Keeping</h5>
+              <div class="card-details d-flex justify-content-between">
+                <h3>£299.00</h3>
+                <p><i class="fa-solid fa-user-graduate"></i> 135 <span>Students</span></p>
+              </div>
+              <button class="btn primary_btn w-100 my-2" type="button">
+                View Details <i class="fa-solid fa-arrow-right ms-1"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="./assets/images/unsplash_FlPc9_VocJ4-1.png" class="card-img-top" alt="...">
+            <div class="card-ratings">
+              <p><i class="fa-solid fa-star rating"></i> 5.00 <span>(5 reviews)</span></p>
+              <p><i class="fa-solid fa-calendar-days"></i> 365 <span>days</span></p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Bookkeeping : Accounting & Book-Keeping</h5>
+              <div class="card-details d-flex justify-content-between">
+                <h3>£299.00</h3>
+                <p><i class="fa-solid fa-user-graduate"></i> 135 <span>Students</span></p>
+              </div>
+              <button class="btn primary_btn w-100 my-2" type="button">
+                View Details <i class="fa-solid fa-arrow-right ms-1"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="./assets/images/unsplash_FlPc9_VocJ4-5.png" class="card-img-top" alt="...">
+            <div class="card-ratings">
+              <p><i class="fa-solid fa-star rating"></i> 5.00 <span>(5 reviews)</span></p>
+              <p><i class="fa-solid fa-calendar-days"></i> 365 <span>days</span></p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Bookkeeping : Accounting & Book-Keeping</h5>
+              <div class="card-details d-flex justify-content-between">
+                <h3>£299.00</h3>
+                <p><i class="fa-solid fa-user-graduate"></i> 135 <span>Students</span></p>
+              </div>
+              <button class="btn primary_btn w-100 my-2" type="button">
+                View Details <i class="fa-solid fa-arrow-right ms-1"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="./assets/images/unsplash_FlPc9_VocJ4-3.png" class="card-img-top" alt="...">
+            <div class="card-ratings">
+              <p><i class="fa-solid fa-star rating"></i> 5.00 <span>(5 reviews)</span></p>
+              <p><i class="fa-solid fa-calendar-days"></i> 365 <span>days</span></p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Bookkeeping : Accounting & Book-Keeping</h5>
+              <div class="card-details d-flex justify-content-between">
+                <h3>£299.00</h3>
+                <p><i class="fa-solid fa-user-graduate"></i> 135 <span>Students</span></p>
+              </div>
+              <button class="btn primary_btn w-100 my-2" type="button">
+                View Details <i class="fa-solid fa-arrow-right ms-1"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card">
+            <img src="./assets/images/unsplash_FlPc9_VocJ4-7.png" class="card-img-top" alt="...">
+            <div class="card-ratings">
+              <p><i class="fa-solid fa-star rating"></i> 5.00 <span>(5 reviews)</span></p>
+              <p><i class="fa-solid fa-calendar-days"></i> 365 <span>days</span></p>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Bookkeeping : Accounting & Book-Keeping</h5>
+              <div class="card-details d-flex justify-content-between">
+                <h3>£299.00</h3>
+                <p><i class="fa-solid fa-user-graduate"></i> 135 <span>Students</span></p>
+              </div>
+              <button class="btn primary_btn w-100 my-2" type="button">
+                View Details <i class="fa-solid fa-arrow-right ms-1"></i>
               </button>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+  <!-- Courses section end  -->
 
-    </section>
-    <!-- Review section end  -->
 
 
-    <!-- Js links here  -->
-    <script src="./assets/js/app.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <script src="https://kit.fontawesome.com/d46ca011e7.js" crossorigin="anonymous"></script>
-  </body>
+  <!-- Js links here  -->
+  <script src="./assets/js/app.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/d46ca011e7.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
