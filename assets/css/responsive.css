@@ -2,52 +2,208 @@
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  /* Hero Section start  */
   h2 {
-    font-size: 25px;
-    margin-top: 50px;
+    font-size: 16px !important;
+  }
+  h3 {
+    font-size: 14px !important;
   }
   p {
-    font-size: 12px;
+    font-size: 12px !important;
   }
-  .banner-content h1 {
-    font-size: 35px;
+  i {
+    font-size: 12px !important;
   }
-  .primary-btn {
-    width: 130px;
-    padding: 0;
+  .primary_btn {
+    padding: 10px 20px;
   }
+  .hero_bg .hero_content-left {
+    padding: 10px;
+  }
+  .hero_bg .hero_content-left h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .hero_bg .hero_content-left {
+    padding-top: 30px;
+  }
+  .hero_bg .hero_content-left h2 {
+    font-size: 14px;
+  }
+  .hero_bg .hero_content-left form {
+    margin: 0 auto;
+    width: 300px;
+    height: 60px;
+    padding: 0px 5px;
+  }
+  .hero_bg .hero_content-left .form-control {
+    width: 100px;
+    height: 14px;
+  }
+  .hero_bg .hero_content-right {
+    margin-top: 20px;
+  }
+  .hero_bg .hero_content-right .hero_img-side {
+    top: 0px;
+    right: 0px;
+  }
+  .hero_bg .hero_content-right .hero_player {
+    right: 0px;
+    left: 20px;
+  }
+  /* Hero Section end  */
+
+  /* Reviews Section start  */
+
+  section.reviews_bg {
+    margin-top: -120px;
+  }
+  .reviews_bg .all_reviews {
+    margin: 0px auto !important;
+  }
+  .review_content {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 0px;
+  }
+
+  /* Reviews Section end  */
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  /* Hero Section start  */
   h2 {
-    font-size: 30px;
-    margin-top: 50px;
+    font-size: 16px !important;
+  }
+  h3 {
+    font-size: 14px !important;
   }
   p {
+    font-size: 12px !important;
+  }
+  i {
+    font-size: 12px !important;
+  }
+  .hero_bg .hero_content-left h1 {
+    font-size: 35px;
+  }
+  .hero_bg .hero_content-left {
+    padding-top: 30px;
+  }
+  .hero_bg .hero_content-left h2 {
     font-size: 14px;
   }
-  .banner-content h1 {
-    font-size: 40px;
+  .hero_bg .hero_content-left form {
+    margin: 0px auto;
+    width: 520px;
   }
+  .hero_bg .hero_content-right {
+    margin-top: 50px;
+  }
+  .hero_bg .hero_content-right .hero_img-side {
+    top: 0px;
+    right: -25px;
+  }
+  .hero_bg .hero_content-right .hero_player {
+    right: 0px;
+    left: 20px;
+  }
+  /* Hero Section end  */
+
+  /* Reviews Section start  */
+
+  section.reviews_bg {
+    margin-top: -120px;
+  }
+  .reviews_bg .all_reviews {
+    margin: 0px auto !important;
+  }
+  .review_content {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 0px;
+  }
+
+  /* Reviews Section end  */
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  /* Hero Section start  */
   h2 {
-    font-size: 35px;
-    margin-top: 50px;
+    font-size: 20px !important;
+  }
+  h3 {
+    font-size: 18px !important;
   }
   p {
-    font-size: 14px;
+    font-size: 14px !important;
   }
-  .banner-content h1 {
+  i {
+    font-size: 14px !important;
+  }
+  .hero_bg .hero_content-left {
+    padding: 20px;
+  }
+  .hero_bg .hero_content-left h1 {
     font-size: 45px;
   }
-  .primary-btn {
-    width: 130px;
-    padding: 0;
+  .hero_bg .hero_content-left {
+    padding-top: 30px;
   }
+  .hero_bg .hero_content-left h2 {
+    font-size: 14px;
+  }
+  .hero_bg .hero_content-left form {
+    margin: 0px auto;
+  }
+  .hero_bg .hero_content-right {
+    margin-top: 30px;
+  }
+  .hero_bg .hero_content-right .hero_img-side {
+    top: 105px;
+    right: 92px;
+  }
+  .hero_bg .hero_content-right .hero_player {
+    right: 30px;
+    left: 0px;
+  }
+  /* Hero Section end  */
+  /* Reviews Section start  */
+
+  section.reviews_bg {
+    margin-top: -120px;
+  }
+  .reviews_bg .all_reviews {
+    margin: 0px auto !important;
+  }
+  .review_content {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 0px;
+  }
+
+  /* Reviews Section end  */
 }
 
 /* // Large devices (desktops, 992px and up)
