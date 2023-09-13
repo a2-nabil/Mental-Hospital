@@ -5,6 +5,9 @@
   body {
     overflow-x: hidden;
   }
+  .header_part {
+    height: auto;
+  }
   /* Hero Section start  */
   h2 {
     font-size: 16px !important;
@@ -271,6 +274,9 @@
   body {
     overflow-x: hidden;
   }
+  .header_part {
+    height: auto;
+  }
   /* Hero Section start  */
   h2 {
     font-size: 16px !important;
@@ -489,6 +495,9 @@
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .header_part {
+    height: auto;
+  }
   /* Hero Section start  */
   .heading-p {
     padding: 50px 0px;
