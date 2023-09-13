@@ -2,6 +2,9 @@
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  body {
+    overflow-x: hidden;
+  }
   /* Hero Section start  */
   h2 {
     font-size: 16px !important;
@@ -17,6 +20,12 @@
   }
   i {
     font-size: 12px !important;
+  }
+  .heading-p {
+    padding: 50px 0px;
+  }
+  .heading-m {
+    margin: 50px 0px;
   }
   .heading-text {
     font-size: 24px !important;
@@ -105,6 +114,15 @@
     height: 35px;
     margin-bottom: -50px;
   }
+  .testimonial-bg .carousel-control-prev,
+  .testimonial-bg .carousel-control-next {
+    width: 35px;
+    height: 35px;
+    margin: -3rem 1rem;
+  }
+  .testimonial-bg .carousel-inner {
+    overflow: hidden;
+  }
   /* Reviews Section end  */
 
   /* Courses banner section start  */
@@ -190,12 +208,69 @@
   .circle-4 {
     display: none;
   }
-
   /* Resources section end */
+  /* Best Course section start */
+  .best_course-bg .row {
+    flex-direction: column-reverse;
+    padding: 0px 10px;
+  }
+  .best_course-bg p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 15px 0 20px 0;
+  }
+  /* Best Course section end */
+  /* Discount section start  */
+  .discount-card {
+    padding: 30px 0px;
+  }
+  .discount-card img {
+    height: 250px;
+  }
+  .discount-card h2 {
+    line-height: 34px;
+  }
+  .discount-card h3 {
+    font-size: 20px !important;
+    line-height: 30px;
+  }
+  .discount-card p {
+    font-weight: 600;
+    line-height: 20px;
+    padding-bottom: 20px;
+  }
+  .discount-card p > .green {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  /* Discount section end  */
+  /* Blogs section start */
+  .blogs-part .card {
+    height: 400px;
+    margin-bottom: 20px;
+  }
+  .blogs-part .card h2 {
+    line-height: 30px;
+  }
+  /* Blogs section end */
+  /* Footer section start  */
+  .footer-item {
+    margin-top: 20px;
+  }
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  /* Footer section end  */
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    overflow-x: hidden;
+  }
   /* Hero Section start  */
   h2 {
     font-size: 16px !important;
@@ -208,6 +283,21 @@
   }
   i {
     font-size: 12px !important;
+  }
+  .heading-text {
+    font-size: 26px !important;
+  }
+  .sub_heading-text {
+    font-weight: 500;
+  }
+  .desc-text {
+    line-height: 18px;
+  }
+  .heading-p {
+    padding: 50px 0px;
+  }
+  .heading-m {
+    margin: 50px 0px;
   }
   .hero_bg .hero_content-left h1 {
     font-size: 35px;
@@ -240,9 +330,9 @@
   /* Hero Section end  */
 
   /* Reviews Section start  */
-
   section.reviews_bg {
     margin-top: -120px;
+    overflow: hidden;
   }
   .reviews_bg .all_reviews {
     margin: 0px auto !important;
@@ -258,7 +348,15 @@
     height: 35px;
     margin-bottom: -50px;
   }
-
+  .testimonial-bg .carousel-control-prev,
+  .testimonial-bg .carousel-control-next {
+    width: 35px;
+    height: 35px;
+    margin: -5rem 5rem;
+  }
+  .testimonial-bg .carousel-inner {
+    overflow: hidden;
+  }
   /* Reviews Section end  */
   /* Courses banner section start  */
   .courses_bg {
@@ -332,13 +430,72 @@
   .resources-bg h3 {
     line-height: 20px;
   }
-
   /* Resources section end */
+  /* Best Course section start */
+  .best_course-bg .row {
+    flex-direction: column-reverse;
+    padding: 0px 15px;
+  }
+  .best_course-bg p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding: 15px 0 20px 0;
+  }
+  /* Best Course section end */
+  /* Discount section start  */
+  .discount-card {
+    padding: 30px 0px;
+  }
+  .discount-card img {
+    height: 300px;
+  }
+  .discount-card h2 {
+    line-height: 34px;
+  }
+  .discount-card h3 {
+    font-size: 22px !important;
+    line-height: 30px;
+  }
+  .discount-card p {
+    font-weight: 600;
+    line-height: 20px;
+    padding-bottom: 20px;
+  }
+  .discount-card p > .green {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  /* Discount section end  */
+  /* Blogs section start */
+  .blogs-part .card {
+    margin-bottom: 20px;
+  }
+  .blogs-part .card h2 {
+    line-height: 30px;
+  }
+  /* Blogs section end */
+  /* Footer section start  */
+  .footer-item {
+    margin-top: 20px;
+  }
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  /* Footer section end  */
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   /* Hero Section start  */
+  .heading-p {
+    padding: 50px 0px;
+  }
+  .heading-m {
+    margin: 50px 0px;
+  }
   .hero_bg .hero_content-left {
     padding: 20px;
   }
@@ -365,7 +522,6 @@
   }
   /* Hero Section end  */
   /* Reviews Section start  */
-
   section.reviews_bg {
     margin-top: -120px;
   }
@@ -382,6 +538,15 @@
     width: 35px;
     height: 35px;
     margin-bottom: -50px;
+  }
+  .testimonial-bg .carousel-control-prev,
+  .testimonial-bg .carousel-control-next {
+    width: 35px;
+    height: 35px;
+    margin: -5rem 5rem;
+  }
+  .testimonial-bg .carousel-inner {
+    overflow: hidden;
   }
   /* Reviews Section end  */
   /* Courses banner section start  */
@@ -433,7 +598,31 @@
     align-items: center;
     gap: 30px;
   }
+  .testimonial-content {
+    flex-direction: column;
+  }
   /* Features section end */
+  /* Best Course section start */
+  .best_course-bg .row {
+    flex-direction: column-reverse;
+  }
+  /* Best Course section end */
+  /* Blogs section start */
+  .blogs-part .card {
+    margin-bottom: 20px;
+  }
+  .blogs-part .card h2 {
+    line-height: 30px;
+  }
+  /* Blogs section end */
+  /* Footer section start  */
+  .footer-item {
+    margin-top: 20px;
+  }
+  .footer-content {
+    align-items: center;
+  }
+  /* Footer section end  */
 }
 
 /* // Large devices (desktops, 992px and up) */
@@ -447,8 +636,19 @@
     font-size: 14px;
     line-height: 20px;
   }
+  .banner-content_right .banner-card {
+    height: 325px;
+  }
+  .testimonial-bg .carousel-control-prev,
+  .testimonial-bg .carousel-control-next {
+    width: 35px;
+    height: 35px;
+    margin: -5rem 5rem;
+  }
+  .testimonial-bg .carousel-inner {
+    overflow: hidden;
+  }
 }
-
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .card-ratings {
@@ -459,5 +659,14 @@
     width: 600px;
     font-size: 14px;
     line-height: 20px;
+  }
+  .testimonial-bg .carousel-control-prev,
+  .testimonial-bg .carousel-control-next {
+    width: 35px;
+    height: 35px;
+    margin: -5rem 5rem;
+  }
+  .testimonial-bg .carousel-inner {
+    overflow: hidden;
   }
 }
