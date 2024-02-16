@@ -357,12 +357,11 @@ section.reviews_bg {
   line-height: 140%;
 }
 .card-ratings {
-  position: absolute;
-  top: 165px;
-  left: 15px;
   display: flex;
   justify-content: space-between;
-  gap: 85px;
+  gap: 15px;
+  margin-top: -30px;
+  padding: 0 15px;
 }
 .card-ratings p {
   color: var(--text-p-2);
